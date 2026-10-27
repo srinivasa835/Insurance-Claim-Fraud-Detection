@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claim-fraud-detection"
+version = "1.0.0"
+description = "Insurance claim fraud detection from narrative logs using TF-IDF and RoBERTa"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "seaborn", "joblib",
+    "torch", "transformers",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+claim-train = "claim_fraud.cli.train:main"
+claim-infer = "claim_fraud.cli.infer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

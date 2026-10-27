@@ -1,0 +1,21 @@
+fraud_indicator,fraud_weight,genuine_indicator,genuine_weight
+major,2.7151,total loss,-1.3574
+as major,2.7151,loss the,-1.3574
+major damage,2.7151,as total,-1.3574
+chess,2.6094,loss,-1.3574
+is chess,2.6094,minor,-0.7693
+chess the,2.6094,as minor,-0.7693
+cross,1.6658,minor damage,-0.7693
+is cross,1.6658,trivial,-0.7402
+fit,1.6658,trivial damage,-0.7402
+fit the,1.6658,as trivial,-0.7402
+cross fit,1.6658,wv the,-0.7206
+damage the,0.7961,wv,-0.7206
+and witness,0.7925,is golf,-0.6828
+witness,0.7925,golf the,-0.6828
+witness were,0.7925,golf,-0.6828
+sc the,0.6595,handlers,-0.6804
+sc,0.6595,old handlers,-0.6804
+in arlington,0.5776,handlers cleaners,-0.6804
+arlington,0.5776,cleaners,-0.6804
+honda civic,0.5557,cleaners and,-0.6804
